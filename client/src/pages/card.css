@@ -1,0 +1,45 @@
+.cardx{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(226,225,225,0.5);
+    margin: 0 auto;
+    background-color: rgba(157,157,157,0.158);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.cardx:hover{
+    background-color: rgba(157, 157, 157, 0.5);
+    transition: 0.5s;
+}
+.iconx{
+    font-size: 80px;
+    color: hsl(168, 98%, 62%);
+    height: 80px;
+}
+.titlex{
+    font-size: 25px;
+    color:hsl(168, 98%, 62%);
+}
+.desx{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(6, 5, 45);
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Roboto Mono' , sans-serif;
+
+
+}
